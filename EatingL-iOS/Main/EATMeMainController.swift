@@ -11,7 +11,7 @@ class EATMeMainController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("TEST 合并")
         // Do any additional setup after loading the view.
     }
     
