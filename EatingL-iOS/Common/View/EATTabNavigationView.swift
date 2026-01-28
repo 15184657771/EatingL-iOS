@@ -124,8 +124,8 @@ class EATTabNavigationView: EATBaseView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        editButton.eat_addGradientBorder(colors: [UIColor("#FFFFFF1F"), UIColor("#FFFFFF0D")], locations: [0,1], startPoint: CGPoint(x: 0.5, y: 0), endPoint: CGPoint(x: 0.5, y: 1), width: 1, cornerRadius: 17)
-        editDoneBtn.eat_addGradientBorder(colors: [UIColor("#FFFFFF1F"), UIColor("#FFFFFF0D")], locations: [0,1], startPoint: CGPoint(x: 0.5, y: 0), endPoint: CGPoint(x: 0.5, y: 1), width: 1, cornerRadius: 17)
+//        editButton.eat_addGradientBorder(colors: [UIColor("#FFFFFF1F"), UIColor("#FFFFFF0D")], locations: [0,1], startPoint: CGPoint(x: 0.5, y: 0), endPoint: CGPoint(x: 0.5, y: 1), width: 1, cornerRadius: 17)
+//        editDoneBtn.eat_addGradientBorder(colors: [UIColor("#FFFFFF1F"), UIColor("#FFFFFF0D")], locations: [0,1], startPoint: CGPoint(x: 0.5, y: 0), endPoint: CGPoint(x: 0.5, y: 1), width: 1, cornerRadius: 17)
     }
 
     public init(tab: EATMainTab, frame: CGRect) {
@@ -134,7 +134,7 @@ class EATTabNavigationView: EATBaseView {
         eat_initViews()
     }
     
-    func eat_initViews(){
+    func eat_initViews() {
         addSubview(titleLabel)
         addSubview(settingButton)
         addSubview(editButton)
